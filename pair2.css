@@ -1,0 +1,8 @@
+h1{font-family:TimesNewRoman; color:red;}
+a{font-family:TimesNewRoman; font-size:20px; color:pink; line-height:20px;}
+body{background-image: url(mew.jpg);
+background-repeat: no-repeat;}
+a:link{color:red}
+a:visited{color:green} 
+a:hover{color:purple}
+a:active{color:brown}
