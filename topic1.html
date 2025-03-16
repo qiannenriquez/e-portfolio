@@ -3,11 +3,23 @@
 <head><script type="text/javascript">
 function show_alert()
 {
-alert ("pakiss");
+alert ("cute si mikkie");
 }
-</script></head>
+function show_prompt()
+{var name=prompt("Please enter your name:");
+ if (name!=null && name!="")
+{document.write("Hi " +name + "! Do you like my e-port so far?");}}
+function show_confirm()
+{var ans=confirm("Proceed if cute ka");
+ if (ans==true)
+{document.write("Wews!!");}
+ else{document.write("HAHAHA");}}
+</script>
+</head>
 <body>
 <input type="button" onclick="show_alert()"
-value="click!!">
+value="click!!"> <br> <br> 
+<input type="button" onclick="show_prompt()" value="Click pt.2!!"> <br> <br> 
+<input type="button" onclick="show_confirm()" value="Click pt.3!!"> 
 </body>
 </html>
