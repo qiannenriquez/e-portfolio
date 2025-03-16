@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head><title>If Else</title>
+<script type="text/javascript">
+function check()
+{
+if (document.example.answer.value=="BLUE")
+{document.write("Correcto!");}
+else if (document.example.answer.value=="")
+{document.write("Why Skip! >:((");}
+else
+{document.write("Look up and try again!");}}
+</script>
+</head>
+<body>
+<p align="center">What color is the sky? (answer IN ALL CAPS) </p>
+<form align="center" name="example">
+<input type="text" name="answer" value="">
+<input type="button" name="answerbutton" value="SUBMIT" onClick="check()"> 
+</form> 
+</body>
+</html>
